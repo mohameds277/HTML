@@ -10,30 +10,40 @@
         <meta name="desctiption" content="this is our book store" />        <!-- Descrtiopn of the site , appers under the search result-->
         <!-- this is just a comment test  -->
         <meta name="comment test" content="to test how to comment" /> 
-        <style>                     <!--CSS Section-->
-            body
-            {
-                background-color: red;                  
-            } 
-        </style>
         <script></script>                               <!--javascript sector-->
         <link rel="stylesheet" href="">                 <!-- Link for refernces -->
 
     </head>  
                                      <!-- end of the head -->
     <body>
+        <header><strong> BOOK Store </strong></header>
+        <nav>Navigation stuff</nav>
+        
+            <div style="background-color: yellow;">
+
+                <h1>Book store</h1>
+
+            </div>
+
+
+
+
+
         <!--h1 to h6 ( heading levels)-->
-        <h1>book store</h1> 
-           
+        <div style="background-color: red;">
+        <h1>-------------------------------------------------book store-------------------------------------------------</h1>
+        <p><img src="photo-1589998059171-988d887df646.jpeg" alt="book image" width="720" height="300"></p> <!-- adding images-->
             <p class="one" > <b>is a book-store wellcome</b></p> <!--bold for any text for design purpose-->
             <p class="two"><strong>sell best books</strong> </p> <!--strong is important info like author name has interst on SEO -->
             <p class="three"> <b><i>this text is italic as hell and bold </i></b></p>
             <p><em> this is an emphasize text</em></p>
             <a href="https://www.google.com" target="_blank"Google title= "go to goole " >google </a>  
             <a href="#one"Google title= "go to this paragraph" >parahraph </a> <!--href : hyerlink , target : how this hyperlink will lanuch new window ...ect  -->
+        </div>
+            <div style="background-color: blue;">
             <h2>Chapter title inside the book</h2>
                 <p> this word is <mark>marked</mark> word</p>
-
+            </div>
                 <h3>story title inside the chapter</h3>
                     <p> you got underline here boaa : <u>here</u> </p> <!-- under line elemnt used for links -->
 
@@ -50,8 +60,8 @@
                                 <p>water is H<sub>2</sub>O <!-- subscript -->
                                  X<sup>2</sup></p> <!-- super script / power to --> 
                                  <p><a href="mailto:mohameds277@gmail.com" target = "_blank" >Contact me </a></p>
-                                 <p><img src="photo-1589998059171-988d887df646.jpeg" alt="book image" width="1366"></p> <!-- adding images-->
-                                
+                                 
+                                <div style="font-size:xx-large; background-color: blueviolet;">
                                 <p>------------------------------------------LISTS------------------------------------------</p>
                                  <!--unorderd list -->
                                  <p>*skills to leran:</p>
@@ -102,12 +112,82 @@
                                     <dd>used for giving styles for websites</dd>
                                     <dd>invented in late 80s</dd>
                                 </dl>
+                            </div>
+
+    <div style="background-color:yellow;">
+    <!--tables in HTML have same strcuture of the main html , thead , tbody and tfoot-->
+    <!--table rows is tr , row element is td -->
+    <table>
+        <caption>Table name </caption>
+        <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last Name</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mohan </td>
+                <td>sko </td>
+                <td>60 </td>
+            </tr>
+            <tr>
+                <td>Mohan </td>
+                <td>sko </td>
+                <td>60 </td>
+            </tr>
+            <tr>
+                <td>Mohan </td>
+                <td>sko </td>
+                <td>60 </td>
+            </tr>
+
+        
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">avarages = 4151</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+
+    <p>this <span>word </span> is isolated or spaned</p>
+    <p>new line starts now </p> <br> here </p>
+    <hr>
+    <p>new paragraph after the horizantal role</p>
+
+
+
+
+
+        </div>
+        <div class="showing reserved elemnts" style="background-color: brown;">
+
+            <p> the paragraph elemnt is &lt;p&gt; </p>
+            <p>the div element is &lt;/div&gt;</p>
+        </div>
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+        <div class="Copyright">
+            <p>All rights-reserved &copy;</p>
+        </div>
     </body>
 </html>
 
