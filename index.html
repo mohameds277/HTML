@@ -3,19 +3,24 @@
     <head>                                       <!-- the section the contains meta data , title and more -->
         <meta charset="UTF-8"/>      
                     <!-- has a lots of uses this here makes the website use a certain encoding -->
-                     <!-- the title of the website-->
+                    <!-- the title of the website-->
         <title>   
-            website title                                       
+            simple book store                                       
         </title>
-        <meta name="desctiption" content="this is our book store" />        <!-- Descrtiopn of the site , appers under the search result-->
+        <meta name="descrtption" content="this is our book store" />        <!-- Descrtiopn of the site , appers under the search result-->
         <!-- this is just a comment test  -->
         <meta name="comment test" content="to test how to comment" /> 
         <script></script>                               <!--javascript sector-->
         <link rel="stylesheet" href="">                 <!-- Link for refernces -->
 
     </head>  
-                                     <!-- end of the head -->
+         <!-- end of the head -->
     <body>
+        <div style="background-color:  red;">
+            <label>Search</label>
+            <input type="search">
+
+        <audio src=""> </audio>
         <header><strong> BOOK Store </strong></header>
         <nav>Navigation stuff</nav>
         
@@ -188,7 +193,105 @@
         <div class="Copyright">
             <p>All rights-reserved &copy;</p>
         </div>
+        
+            <form method="GET" >  
+                <div>
+                <label>User name</label>
+                <input type="text" required placeholder="make it uniqe" name="UN" autofocus >
+                
+                </div>
+                <br>
+                <div>
+                    <label>Email </label>
+                    <input type="email" required placeholder="Email address" value="old_email@somethin.com" name="email" readonly disabled>
+                    
+                </div>
+                <br>
+                <div>
+                <label>Password </label>
+                <input type="password" required placeholder="make it complex " name="passwd" minlength="8">
+                </div>
+                <input type="color" value="color">
+
+                <br>
+                <label>range</label>
+                <input type="range" value="range" min="0" max="100" step="25">
+                <br>
+                <label>number</label>
+                <input type="number" value="name" min=0 max=90> 
+
+
+                <p>what OS you use ></p>
+                <div>
+                    <input type="radio" name="os" value="window" id="win">
+                    <label for="win">Window</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="os" value="Linux" checked id="lin"> 
+                    <label for="lin" >Linux</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="os" value="Mac" id="mc">
+                    <label for="mc">Mac</label>
+                </div>
+                <input type="submit" value="save">
+                <input type="reset" value="reset">
+            
+            </form>
+            <p>is that you </p>
+            <div class="checkbox1">
+                <input type="checkbox" name="yes"  id="y" value="yes">
+                <label for="y">yes</label>
+            </div>
+
+            <div class="checkbox2">
+                <input type="checkbox" name="da"  id="d" value="da">
+                <label for="d">da</label>
+            </div>
+
+
+
+
+            <div class="selection">
+                <label for="book">books</label>
+                <select name="books" id="book" >
+                   <optgroup label="book genre 1 ">
+                    <option value="1">book 1 </option>
+                    <option value="2">book 2 </option>
+                    <option value="3">book 3 </option>
+                  </optgroup>
+                  <optgroup label="book genre 2 ">
+                    <option value="4">book 4 </option>
+                    <option value="5">book 5 </option>
+                    <option value="6">book 6 </option>
+                  </optgroup>
+                </select>
+
+
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+        <textarea name="some Random Text " cols="30" rows="10" placeholder="insert your text here "></textarea>
+        <textarea name="some Random Text " cols="30" rows="10" placeholder="insert your text here "></textarea>
+
+
+        <hr>
+
+        <div class="upload file">
+            <label > CV upload </label>
+            <input type="file"/>
+            <br>
+            <label>insert URL</label>
+            <input type="url">
+            <input type="submit" value="save">
+        </div>
+        
     </body>
+
 </html>
 
 <!--
